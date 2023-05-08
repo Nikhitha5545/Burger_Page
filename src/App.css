@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+.link-space{
+margin-right:10px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav{
+  display: inline-block;
+  margin-left: 20px;
+  padding: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+nav a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #ff9800;
+}
+nav a:hover{
+  background-color: white;
+  color: black;
+}
+.rightnavbar{
+  float: right;
+  word-spacing: 10px;
+}
+.rightnavbar nav, a{
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-size: 18px;
+  font-weight: bold;
+}
+.img{
+  position: relative;
+}
+.img1{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.bottomleft{
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-size: 45px;
   color: white;
+  position: absolute;
+  bottom: 70px;
+  left: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.imgcontainer{
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  margin: 100px;
 }
+.txt, h1{
+  font-family: serif;
+  font-size: 30px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-variant: small-caps;
+  margin-left: 50%;
+}
+.txt1{
+  float: left;
+}
+.menu1, img{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width: 500px;
+  height: 700px;
+
+}
+span.menu1{
+  font-family:  "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+}
+.menu1, h4{
+  margin-left: 100px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.menu1, p{
+  margin-left: 100px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-transform: capitalize;
+  opacity: '0.6';
+}
+.end, a{
+  font-weight: lighter;
+  font-size: 17px;
+}
+a:hover{
+  color: green;
 }
